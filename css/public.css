@@ -1,0 +1,202 @@
+/*样式预设*/
+*{
+	box-sizing:border-box;
+}
+body,ul,dl,dt,dd{
+	margin:0;
+	padding: 0;
+	list-style: none;
+}
+body{
+	font-size: 14px;
+	font-family: "微软雅黑";
+}
+a{
+	text-decoration: none;
+	cursor: pointer;
+}
+input{
+	padding-left:1px;
+	border:none;
+	outline: none;
+	font-family:'微软雅黑';
+	font-size: 14px;
+}
+textarea{
+	font-family:'微软雅黑';
+	border: none;
+	outline:none;
+}
+img{
+	border: none;
+}
+.bod{
+	border: 1px solid red;
+}
+/*公共样式*/
+
+.headline{
+	display:inline-block;
+	margin-top:60px;
+	float: left;
+	margin-left: -60px;
+}
+.headline h4{
+	margin:0;
+	padding:0;
+	font-size: 18px;
+	text-align: right;
+	margin-top: -25px;
+	float: right;
+}
+.headline h4 span{
+	color: transparent;
+}
+.headline p{
+	margin:0;
+	padding:0;
+	font-size: 12px;
+	color: #cacaca;
+	text-align: right;
+	float: right;
+}
+.headline span{
+	font-size: 30px;
+	color: #eb6100;
+	display: block;
+	float: right;
+	text-align: right;
+	font-weight: bold;
+	margin-top: -25px;
+}
+.headline .us{
+	width:40px;
+	height:40px;
+	background:#999999;
+	color:#fff;
+	font-size:21px;
+	font-family:Arial;
+	position: absolute;
+	text-align: center;
+	line-height: 40px;
+	top:20px;
+	left: 10px;
+	border-left: 1px solid #dddddd;
+	border-bottom: 1px solid #dddddd;
+}
+
+
+
+/*HEAND START*/
+.heand{
+	width: 100%;
+	max-width: 1200px;
+	margin:0 auto;
+	height: 100px;
+}
+.heand-logo{
+	width: 56px;
+	height: 60px;
+}
+.heand-logo span{
+	font-size: 10px;
+	font-weight: bold;
+}
+.heand-logo img{
+	float: left;
+	margin-top:30px; 
+	width: 53px;
+	height: 56px;
+}
+.heand ul{
+	float: right;
+
+	height: 50px;
+	line-height: 50px;
+	text-align: center;
+	margin-top: -30px;
+
+}
+.heand ul li a{
+	color: black;
+}
+.heand ul li{
+	width: auto;
+	height: 50px;
+	float: left;
+	margin-left: 65px;
+}
+.heand ul li a:hover,.heand ul li a.active{
+	display:inline-block;
+	width: auto;
+	height: 50px;
+	border-bottom: 5px solid #eb6100;
+}
+.heand form{
+	width: 125px;
+	height: 29px;
+	border: 1px solid red;
+	margin-top: 13px;
+	margin-left: 33px;
+	border-radius: 12px;
+	border:1px solid #666666;
+	line-height: 20px;
+
+}
+.input-logo{
+	background:url(../img/index06.png) no-repeat left;
+	width: 18px;
+	height: 18px;
+	cursor: pointer;
+	float: left;
+	margin-left: 9px;
+	margin-top:4px;
+}
+.input-logo:hover{
+	width: 24px;
+	height: 24px;
+	margin-top: 0;
+}
+.input-search{
+	width: 80px;
+	height: 25px;
+	color: #bdbdbd;
+	line-height: 25px;
+}
+/*HEAND END*/
+/*FOOTER START*/
+.footer{
+	width: 100%;
+	height: 160px;
+	background:#666666;
+	padding-top: 34px;
+	color: #fff;
+}
+.contacts{
+	width: 920px;
+	height: 100px;
+	margin:0 auto;
+}
+.copyright{
+	width: 400px;
+	height: 100px;
+	float: left;
+	position: relative;
+}
+.landing{
+	width: 300px;
+	height: 100px;
+	float: right;
+}
+.landing a img{
+	width: 76px;
+	height: 76px;
+	margin-top: 15px;
+	margin-left: 15px;
+}
+.copyright img{
+	position: absolute;
+	left: -21px;
+	top:50px;
+}
+/*FOOTER END

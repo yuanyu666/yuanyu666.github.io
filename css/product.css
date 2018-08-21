@@ -1,0 +1,136 @@
+.banner{
+	background:url(../img/product02.png) no-repeat center;
+	width: 100%;
+	height: 502px;
+}
+.product{
+	width: 100%;
+	margin-bottom: 150px;
+
+}
+.content{
+	width: 100%;
+	max-width: 1070px;
+	margin:0 auto;
+	margin-top: 110px;
+	padding-top: 1px;
+}
+
+.content dl{
+	width: 400px;
+	height: 60px;
+	float: left;
+	padding-top: 20px;
+}
+.content dl dt{
+	width: 264px;
+	height: 20px;
+	float: left;
+	margin-top: 2px;
+}
+.content-our{
+	font-size:6px;
+	color: #a7a7a7;
+}
+.content dl dt p{
+	margin:0;
+	padding:0;
+	font-weight: bold;
+	font-size: 18px;
+	text-align: right;
+}
+.content dl dd{
+	width: 137px;
+	height: 30px;
+	float: right;
+	margin-top: -38px;
+	font-size: 29px;
+	color: #eb6100;
+	line-height: 30px;
+}
+.content ul{
+	width: 1065px;
+	height: 600px;
+	margin-top: 100px;
+
+}
+.content ul li{
+	width: 282px;
+	height: 270px;
+	float: left;
+	margin-right:70px;
+	margin-top: 30px;
+	background:#c7c7c7;
+}
+.product .content a{
+	color: #fff;
+}
+.content ul li img{
+	margin-top: 25px;
+	margin-left: 30px;
+}
+.instruments{
+	width: 281px;
+	height: 36px;
+	background:#939393;
+	margin-top: 5px;
+	text-align: center;
+	line-height: 36px;
+}
+.instruments a{
+	color: #fff;
+}
+.content ul li.active,.content ul li:hover{
+	background:#eb6100;
+}
+.instruments a:hover{
+	display: block;
+	background:#f1914d;
+	width: 100%;
+	height:100%;
+}
+.content ul li.active div.instruments,.content ul li:hover div.instruments{
+	background:#f1914d;
+}
+.paging ul{
+	width: 240px;
+	height: 25px;
+	margin:0 auto;
+}
+.paging ul li{
+	width: 23px;
+	height: 23px;
+	border: 1px solid #999999;
+	text-align: center;
+	line-height: 23px;
+	float: left;
+	border-radius: 50%;
+	margin-left: 20px;
+}
+.paging{
+	width: 100%;
+	height:23px;
+	margin-top: 80px;
+}
+.paging ul li.active{
+	background:#eb6100;
+	color: #fff;
+}
+.paging ul li.active a{
+	color: #fff;
+}
+.paging ul li a{
+	color: #959595;
+	display: block;
+	width: 100%;
+	height: 100%;
+	border-radius: 100%;
+}
+.paging ul li a:hover{
+	display: block;
+	background: #eb6100;
+	color: #fff;
+	width: 100%;
+	height: 100%;
+
+}

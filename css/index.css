@@ -1,0 +1,380 @@
+/*BANNER START*/
+.banner{
+	width: 100%;
+	position: relative;
+}
+.banner a img{
+	
+	width: 100%;
+	position:absolute;
+}
+.banner ul{
+	position:absolute;
+	bottom: 36px;
+	left: 50%;
+	margin-left:-48px;
+	width: 105px;
+	height: 20px;
+	z-index: 50;
+	
+}
+.banner ul li{
+	float: left;
+	width: 17px;
+	height: 17px;
+	margin-left: 24px;
+	border-radius: 50%;
+	background: #8ad4ee;
+	cursor: pointer;
+	
+}
+.banner ul li.active{
+	background: #fff;
+}
+.banner ul li:first-child{
+	margin-left: 0;
+}
+.banner div{
+	width: 100%;
+	height: 536px;
+	margin:0 auto;
+	position: absolute;
+	top:0;
+
+}
+.arrows-left{
+	width: 35px;
+	height: 56px;
+	position: absolute;
+	top: 50%;
+	left: 17%;
+	opacity:0.5;
+	cursor: pointer;
+	z-index: 11;
+}
+.banner button{
+	border:none;
+	margin-left: -20px;
+	background: rgba(3,22,62,0.1);
+}
+
+.arrows-right{
+	position: absolute;
+	top: 50%;
+	right:17%;
+	cursor: pointer;
+	z-index: 11;
+}
+/*BANNER END*/
+/* ABOUT-US START*/
+.guild{
+	width: 100%;
+	height: 530px;
+}
+.about{
+	width:910px;
+	height: 410px;
+	margin:0 auto;
+	margin-top: 93px;
+	position: relative;
+
+}
+
+.about img{
+	width: 321px;
+	height: 289px;
+	margin-top: 100px;
+	margin-left:-390px;
+	float: left;
+}
+ .about .content{
+	width: 430px;
+	height: 240px;
+	float: right;
+	margin-top:-5px;
+	line-height: 25px;
+	margin-left: 85px;
+
+}
+.more{
+	width: 64px;
+	height: 22px;
+	border: 1px solid #f19d78;
+	text-align: center;
+	line-height: 20px;
+	margin-top: 16px;
+	position: absolute;
+	top: 340px;
+	right: 0;
+	padding:1px;
+	font-size: 12px;
+}
+.more a{
+	color:#f19d78;
+	display: block;
+	width: 100%;
+}
+.about .content p{
+	text-indent: 2em;
+	margin:0;
+	padding:0;
+	color:#959595;
+}
+/*ABOUT-US END*/
+/*NEWS START*/
+.news{
+	width: 100%;
+	height: 489px;
+	background:#dddddd;
+}
+.magin{
+	margin-top:0;
+	padding-top: 45px;
+	padding-right: 15px;
+	width: 910px;
+	height: 430px;
+	margin:0 auto;
+	position: relative;
+}
+.padding{
+	top: -45px;
+}
+.news .us{
+	width:40px;
+	height:40px;
+	background:#999999;
+	color:#fff;
+	font-size:21px;
+	font-family:Arial;
+	position: absolute;
+	text-align: center;
+	line-height: 40px;
+	top:65px;
+	border-left: 1px solid #dddddd;
+	border-bottom: 1px solid #dddddd;
+}
+.news img{
+	width: 362px;
+	height: 217px;
+	margin-top:118px;
+	margin-left:-360px;
+	float: left;
+}
+.company{
+	width: 385px;
+	height:265px;
+	float: right;
+	margin-top: 80px;
+	border-left: 4px solid #cdcdcd;
+	position: relative;
+	padding-top: 10px;
+
+}
+.company ul li{
+	width: 330px;
+	height: 70px;
+	float: left;
+	margin-left: 30px;
+	margin-top: 15px;
+	position: relative;
+
+}
+.company ul li em{
+	display: block;
+	width: 15px;
+	height: 15px;
+	background: #a7a7a7;
+	border-radius: 50%;
+	position: absolute;
+	left: -40px;
+	top:10px;
+}
+.company ul li:hover em{
+	width: 16px;
+	height: 16px;
+	position: absolute;
+	left: -40px;
+	top:10px;
+}
+.company ul li:hover em:before{
+	display: block;
+	content: "";
+	width: 20px;
+	height: 20px;
+	border:3px solid #a7a7a7;
+	border-radius: 50%;
+	position: absolute;
+	left: -5px;
+	top: -5px;
+}
+
+.number{
+	width: 37px;
+	height: 37px;
+	margin:0;
+	border: 1px solid gray;
+	float: left;
+	text-align: center;
+	line-height: 37px;
+}
+
+.company ul li p{
+	float: left;
+	margin:0;
+	padding:0;
+	margin-top: 38px;
+	margin-left:-30px;
+	color: #868686;
+}
+.company ul li a{
+	color: #999999;
+	margin-left: 20px;
+}
+.company ul li span{
+	margin-left: 55px;
+	margin-top: 5px;
+	color: #999999;
+	display: block;
+}
+.company ul li.active,.company ul li:hover{
+	color: #e88658;
+}
+.company ul li.active a,.company ul li:hover a{
+	color: #333;
+}
+.company ul li:hover .number,.company ul li.active .number{
+	border:1px solid #e88658;
+
+}
+.company ul li.active span,.company ul li:hover span{
+	color: #666;
+}
+.company ul li.active p,.company ul li:hover p{
+	color: #eb6100;
+}
+.company ul li:hover,.company ul li img{
+	display: block;
+}
+
+.about-mores{
+	width: 64px;
+	height: 23px;
+	float: right;
+	border: 1px solid #f19d78;
+	text-align: center;
+	line-height: 20px;
+	top: 290px;
+	position: absolute;
+	left: 330px;
+	padding:1px;
+}
+.about-mores a{
+	color: #f19d78;
+	display: block;
+	width: 100%;
+}
+/*NEWS END
+/*PRODUCT START */
+
+.content .us{
+	width:40px;
+	height:40px;
+	background:#999999;
+	color:#fff;
+	font-size:21px;
+	font-family:Arial;
+	position: absolute;
+	text-align: center;
+	line-height: 40px;
+	top: 20px;
+	border-left: 1px solid #dddddd;
+	border-bottom: 1px solid #dddddd;
+}
+.product ul li span a{
+	position: absolute;
+	top: 80px;
+	left: 60px;
+	color:#fff;
+	font-size: 16px;
+}
+.product{
+	width: 100%;
+	margin-bottom: 150px;
+}
+.product .content{
+	width:930px;
+	height:460px;
+	margin:0 auto;
+	margin-top: 93px;
+	position: relative;
+	padding-top: 1px;
+}
+.content ul{
+	width: 940px;
+	height: 250px;
+	margin-top: 150px;
+}
+.content ul li{
+	width: 190px;
+	height:190px;
+	border-radius: 50%;
+	background:#c9c7c7;
+	float: left;
+	margin-right: 45px;
+	padding-top: 30px;
+	padding-left: 20px;
+	position: relative;
+}
+
+.content ul li:hover{
+	background: #eb6100;
+}
+.content ul li:hover span{
+	display: block;
+}
+.content ul li span {
+	display: none;
+}
+.content ul li img{
+	width: 160px;
+	height: 150px;
+
+}
+
+.content h4{
+	text-align: center;
+}
+.banner ol{
+	list-style: none;
+	margin:0;
+	padding:0;
+}
+.product .active{
+	background: #eb6100;
+}
+.product .content ul p{
+	text-align: center;
+	color: black;
+	margin-top: 50px;
+}
+.content ul li a{
+	color: black;
+}
+.mored{
+	width: 64px;
+	height: 24px;
+	float: right;
+	border: 1px solid #f19d78;
+	color: #f19d78;
+	text-align: center;
+	line-height: 22px;
+	margin-top: 60px;
+	padding:1px;
+
+}
+.mored a{
+	color: #e88658;
+	display: block;
+	width: 100%;
+}
+/*PRODUCT END */

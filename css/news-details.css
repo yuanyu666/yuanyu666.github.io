@@ -1,0 +1,63 @@
+.content{
+	width: 100%;
+
+	border-top: 1px solid #d2d0d0;
+}
+.product{
+	width: 750px;
+	margin:0 auto 150px auto;
+	margin-top: 115px;
+	text-align: center;
+}
+.product span{
+	margin:0 auto;
+	display: block;
+	margin-top: 6px;
+}
+.product h3{
+	font-size: 24px;
+	margin:0;
+	padding:0;
+	font-weight: normal;
+}
+.product img{
+	margin-top: 30px;
+}
+.product p{
+	text-indent: 2em;
+	line-height: 24px;
+	color: #666;
+	text-align: left; 
+}
+.product h4{
+	font-weight: normal;
+	font-size: 16px;
+	margin-top: 70px;
+}
+.product dl{
+	width: 750px;
+	height: 30px;
+	margin-top: 60px;
+	line-height: 30px;
+	text-align: center;
+
+}
+.product dl dt{
+	width: 130px;
+	height: 30px;
+	float: left;
+}
+.product dl dd{
+	width: 205px;
+	height: 30px;
+	float: right;
+}
+.product dl dt img{
+	margin:0;
+}
+.product dl dd img{
+	margin:0;
+}
+.product dl a{
+	color: black;
+}

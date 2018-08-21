@@ -1,0 +1,35 @@
+.contents{
+	width: 100%;
+	border-top: 1px solid #d2d0d0;
+	margin-bottom: 110px;
+}
+.contents h1{
+	text-align: center;
+	margin-top: 110px;
+}
+.pic{
+	width: 845px;
+	margin:0 auto;
+	margin-top: 80px;
+}
+.content{
+	width: 760px;
+	margin:0 auto;
+	margin-top: 100px;
+}
+.content p{
+	text-align: center;
+	font-size: 30px;
+	font-weight: bold;
+	margin:0;
+	padding:0;
+	margin-top:14px; 
+}
+.content span{
+	text-indent: 1em;
+	display: block;
+	margin-top: 70px;
+	font-weight: bold;
+	font-size: 20px;
+	color: #737373;
+}

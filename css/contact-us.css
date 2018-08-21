@@ -1,0 +1,130 @@
+
+/*BANNER START*/
+
+.banner{
+	width: 100%;
+	height: 500px;
+	background: url(../img/contact1.png) no-repeat center;
+}
+/* BANNER END*/
+.contact{
+	width: 1030px;
+	margin:0 auto;
+	margin-top: 87px;
+	overflow: hidden;
+	margin-bottom: 80px;
+}
+
+.contact dl{
+	height: 60px;
+	float: left;
+	padding-top: 20px;
+	position:relative;
+}
+.contact dl dt{
+	height: 20px;
+	display: inline-block;
+	margin-top: -5px;
+	text-align:right;	
+}
+.contact dl dt p.contact-our{
+	font-size:6px;
+	color: #a7a7a7;
+}
+.contact dl dt p{
+	font-weight: bold;
+	text-align: right;
+	font-size: 18px;
+	margin:0;
+}
+.contact dl dd{
+	display: inline-block;
+	height: 30px;
+	font-size: 40px;
+	color: #eb6100;
+	font-weight: bold;
+	line-height: 30px;
+}
+.name{
+	width: 425px;
+	height: 40px;
+	border-bottom: 2px solid #e4e4e4;
+	float: left;
+	border-top: none;
+	border-left: none;
+	border-right: none;
+}
+.post{
+	width: 425px;
+	height: 40px;
+	border-bottom: 2px solid #e4e4e4;
+	float: left;
+	border-top: none;
+	border-left: none;
+	border-right: none;
+}
+.contact form{
+	width: 440px;
+	height: 400px;
+	float: left;
+	margin-top:140px;
+	margin-left:-300px;	
+}
+.map iframe{
+	width: 450px;
+	height: 350px;
+	float: right;
+	margin-top:160px;
+	border: none;
+
+}
+.contact textarea{
+	border: none;
+	border-bottom: 2px solid #e4e4e4;
+	margin-top: 20px;
+	resize: none;
+	padding-left: 5px;
+	
+}
+.contact input,.contact textarea{
+	font-size: 14px !important;
+
+}
+.submit{
+	width:88px;
+	height: 30px;
+	line-height: 30px;
+	text-align: center;
+	background: #eb6100;
+	color: #fff;
+	border: none;
+	cursor: pointer;
+}
+.contact ul{
+	width: 700px;
+	height: 180px;
+	margin:0 auto;
+	margin-top: 180px;
+	float: left;
+	margin-left: 150px;
+
+
+}
+.contact ul li{
+	width: 180px;
+	height: 140px;
+	float: left;
+	margin-left: 50px;
+	font-size: 16px;
+}
+
+.contact ul li p{
+	margin:0;
+	padding:0;
+
+	text-align:left;
+}
+.contact ul li img{
+	margin-left:15px;
+	margin-bottom: 15px;
+}
